@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORSENI MI 2026 KKMI 05 SURABAYA</title>
+    <title>PORSENI MI Kecamatan Krembangan 2026</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -63,11 +63,11 @@
                 <!-- Logo PORSENI Krembangan -->
                 <div class="flex items-center space-x-3 cursor-pointer" onclick="switchTab('beranda')">
                     <div class="w-12 h-12 rounded-xl bg-white flex items-center justify-center overflow-hidden p-0.5 shadow-md border border-slate-200">
-                        <img src="https://i.ibb.co.com/jvMfrV3B/logo-porseni.png" alt="Logo PORSENI" class="w-full h-full object-contain" onerror="this.onerror=null; this.src='logo porseni.jpg';">
+                        <img src="logo porseni_2.jpg" alt="Logo PORSENI" class="w-full h-full object-contain" onerror="this.onerror=null; this.src='logo porseni.jpg';">
                     </div>
                     <div>
-                        <span class="block text-xs font-bold tracking-wider text-brand-700 uppercase">PORSENI MI 2026</span>
-                        <h1 class="text-xl font-black tracking-tight text-slate-900 leading-none">KKMI 05 SURABAYA</h1>
+                        <span class="block text-xs font-bold tracking-wider text-brand-700 uppercase">KKMI KREMBANGAN</span>
+                        <h1 class="text-xl font-black tracking-tight text-slate-900 leading-none">PORSENI 2026</h1>
                     </div>
                 </div>
 
@@ -119,7 +119,7 @@
                             </div>
                             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight">
                                 Pekan Olahraga & Seni <br>
-                                <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-200 to-emerald-200">KKMI 05 SURABAYA</span>
+                                <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-200 to-emerald-200">MI Kecamatan Krembangan</span>
                             </h1>
                             <p class="text-lg text-emerald-100/90 max-w-2xl font-light leading-relaxed mx-auto lg:mx-0">
                                 Mewujudkan generasi madrasah yang sehat, sportif, kreatif, dan berakhlakul karimah melalui kompetisi seni dan olahraga tingkat kecamatan.
@@ -154,14 +154,14 @@
                                 <div class="w-12 h-12 bg-amber-400/20 text-amber-300 rounded-xl flex items-center justify-center mx-auto mb-3 text-2xl font-bold">
                                     <i class="fa-solid fa-volleyball"></i>
                                 </div>
-                                <div class="text-3xl font-black">10</div>
+                                <div class="text-3xl font-black">5</div>
                                 <div class="text-xs text-emerald-100 font-medium mt-1">Cabang Olahraga</div>
                             </div>
                             <div class="bg-white/10 backdrop-blur-md border border-white/15 p-6 rounded-2xl text-center">
                                 <div class="w-12 h-12 bg-amber-400/20 text-amber-300 rounded-xl flex items-center justify-center mx-auto mb-3 text-2xl font-bold">
                                     <i class="fa-solid fa-palette"></i>
                                 </div>
-                                <div class="text-3xl font-black">9</div>
+                                <div class="text-3xl font-black">6</div>
                                 <div class="text-xs text-emerald-100 font-medium mt-1">Cabang Seni</div>
                             </div>
                         </div>
@@ -183,7 +183,7 @@
         <div id="tab-cabang" class="tab-content hidden py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="mb-8">
                 <h2 class="text-3xl font-extrabold text-slate-900">Cabang Perlombaan</h2>
-                <p class="text-slate-600 mt-2">Daftar cabang olahraga dan seni yang dipertandingkan dalam PORSENI MI 2026 KKMI 05 SURABAYA.</p>
+                <p class="text-slate-600 mt-2">Daftar cabang olahraga dan seni yang dipertandingkan dalam PORSENI Krembangan 2026.</p>
             </div>
 
             <div class="flex gap-3 mb-8">
@@ -333,53 +333,16 @@
                     </button>
                 </div>
 
-                <form id="form-pendaftaran" onsubmit="handleFormSubmit(event)" class="space-y-6">
-                    <div>
-                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Asal Madrasah (MI)</label>
-                        <select id="field-madrasah" required class="w-full px-4 py-3 border border-slate-300 rounded-xl text-sm focus:ring-2 focus:ring-brand-500 focus:outline-none bg-white">
-                            <option value="">-- Pilih Madrasah Ibtidaiyah --</option>
-                            <option value=" MI Al Hidayah "> MI Al Hidayah </option>
-                            <option value=" MI Al Ikhsan "> MI Al Ikhsan </option>
-                            <option value=" MI Bina Bangsa "> MI Bina Bangsa </option>
-                            <option value=" MI Darussalam "> MI Darussalam </option>
-                            <option value=" MI Mabadie Khoiri Ummah "> MI Mabadie Khoiri Ummah </option>
-                            <option value=" MI Miftahul Ulum "> MI Miftahul Ulum </option>
-                            <option value=" Nurul Hidayah "> Nurul Hidayah </option>
-                            <option value=" MI Nurul Huda "> MI Nurul Huda </option>
-                            <option value=" MI Sabilal Muttaqin "> MI Sabilal Muttaqin </option>
-                            <option value=" MI Sabilas Salamah "> MI Sabilas Salamah </option>
-                            <option value=" MI Salafiyah "> MI Salafiyah </option>
-                        </select>
-                    </div>
-
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <div>
-                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Nama Official / Pendamping</label>
-                            <input type="text" id="field-official" required placeholder="Nama Lengkap Guru" class="w-full px-4 py-3 border border-slate-300 rounded-xl text-sm focus:ring-2 focus:ring-brand-500 focus:outline-none">
-                        </div>
-                        <div>
-                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">No. WhatsApp Active</label>
-                            <input type="tel" id="field-whatsapp" required placeholder="08xxxxxxxxxx" class="w-full px-4 py-3 border border-slate-300 rounded-xl text-sm focus:ring-2 focus:ring-brand-500 focus:outline-none">
-                        </div>
-                    </div>
-
-                    <div>
-                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Upload Data Peserta (File Excel .xlsx / .csv)</label>
-                        <div class="relative border-2 border-dashed border-slate-300 rounded-2xl p-6 text-center hover:border-emerald-500 transition bg-slate-50">
-                            <i class="fa-solid fa-cloud-arrow-up text-3xl text-emerald-600 mb-2"></i>
-                            <p class="text-xs font-semibold text-slate-700">Pilih berkas Excel Data Peserta</p>
-                            <p class="text-[11px] text-slate-400 mt-0.5">Format: .xlsx, .xls, .csv (Maksimal 5 MB)</p>
-                            <input type="file" id="field-excel-file" accept=".xlsx, .xls, .csv" required class="absolute inset-0 w-full h-full opacity-0 cursor-pointer" onchange="handleFileSelect(this)">
-                        </div>
-                        <div id="file-name-display" class="hidden mt-2 text-xs font-bold text-emerald-700 flex items-center gap-2">
-                            <i class="fa-solid fa-paperclip"></i> <span id="file-name-text"></span>
-                        </div>
-                    </div>
-
-                    <button type="submit" id="btn-submit-form" class="w-full py-4 bg-brand-700 hover:bg-brand-800 text-white font-extrabold rounded-xl shadow-lg transition flex items-center justify-center gap-2">
-                        <span>Kirim Pendaftaran</span>
-                    </button>
-                </form>
+                <!-- Formulir dilayani oleh Google Apps Script di dalam iframe agar hasil simpan dapat dikonfirmasi. -->
+                <iframe
+                    id="porseni-registration-frame"
+                    title="Formulir Pendaftaran PORSENI"
+                    src="https://script.google.com/macros/s/AKfycbz6dUMzyCPeVjQDrzaJKdPjwYDE7Q0v4D9ODtw9mhl168mTrg81d0vndVAdZOuSUPY/exec?view=form"
+                    loading="lazy"
+                    style="display:block;width:100%;height:780px;border:0;border-radius:16px;background:#fff;"
+                    referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+                <p class="mt-3 text-xs text-slate-500">Formulir dibuka secara aman dari Google Apps Script. Status berhasil hanya ditampilkan setelah data dan berkas terkonfirmasi tersimpan.</p>
             </div>
         </div>
 
@@ -397,11 +360,11 @@
             <div class="space-y-3">
                 <div class="flex items-center space-x-3">
                     <div class="w-10 h-10 rounded-lg bg-white flex items-center justify-center overflow-hidden p-0.5">
-                        <img src="https://i.ibb.co.com/jvMfrV3B/logo-porseni.png" alt="Logo" class="w-full h-full object-contain" onerror="this.onerror=null; this.src='logo porseni.jpg';">
+                        <img src="logo porseni_2.jpg" alt="Logo" class="w-full h-full object-contain" onerror="this.onerror=null; this.src='logo porseni.jpg';">
                     </div>
-                    <span class="text-white font-black text-base">PORSENI MI 2026 KKMI 05 SURABAYA</span>
+                    <span class="text-white font-black text-base">PORSENI KREMBANGAN 2026</span>
                 </div>
-                <p class="leading-relaxed text-slate-400">Kompetisi olahraga & seni terpadu antar Madrasah Ibtidaiyah se-Kecamatan Krembangan, Bubutan dan Tegalsari Kota Surabaya.</p>
+                <p class="leading-relaxed text-slate-400">Kompetisi olahraga & seni terpadu antar Madrasah Ibtidaiyah se-Kecamatan Krembangan, Kota Surabaya.</p>
             </div>
             <div>
                 <h4 class="text-white font-bold mb-3 uppercase tracking-wider text-[11px]">Navigasi Cepat</h4>
@@ -414,21 +377,21 @@
             </div>
             <div>
                 <h4 class="text-white font-bold mb-3 uppercase tracking-wider text-[11px]">Sekretariat Panitia</h4>
-                <p class="leading-relaxed">KKMI 05 <br>Surabaya, Jawa Timur<br>Telp/WA: 0838 3138 3007</p>
+                <p class="leading-relaxed">KKMI Kecamatan Krembangan<br>Surabaya, Jawa Timur<br>Email: info@porsenikrembangan.or.id</p>
             </div>
         </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 mt-8 border-t border-slate-800 text-center text-slate-500">
-            &copy; 2026 KKMI 05 Surabaya. All rights reserved.
+            &copy; 2026 KKMI Kecamatan Krembangan. All rights reserved.
         </div>
     </footer>
 
     <script>
-        // Masukkan URL Google Apps Script Web App Deployment Anda di bawah ini
-        const gasWebAppUrl = 'https://script.google.com/macros/s/AKfycbwjIr_iKp3ZuFTQesZyPvu7FfYNfx1uH_JBevK9XNv4XKPIR8CnQ1Vh3K06Ju17MMPj/exec'; // Gantilah dengan Web App URL dari GAS Anda
+        // Masukkan Web App URL hasil Deploy Google Apps Script Anda di sini
+        const gasWebAppUrl = 'https://script.google.com/macros/s/AKfycbz6dUMzyCPeVjQDrzaJKdPjwYDE7Q0v4D9ODtw9mhl168mTrg81d0vndVAdZOuSUPY/exec'; // Gantilah dengan Web App URL dari GAS Anda
 
         // Data lokal default (fallback jika belum/tidak terhubung ke Google Sheets)
         let cabangData = [
-            { id: 1, nama: 'Bulu Tangkis', kategori: 'olahraga', peserta: 'Putra & Putri (Tunggal)', venue: 'Lapangan Bangunsari', ikon: 'fa-table-tennis-paddle-ball' },
+            { id: 1, nama: 'Bulu Tangkis', kategori: 'olahraga', peserta: 'Putra & Putri (Tunggal)', venue: 'GOR Krembangan', ikon: 'fa-table-tennis-paddle-ball' },
             { id: 2, nama: 'Tenis Meja', kategori: 'olahraga', peserta: 'Putra & Putri (Tunggal)', venue: 'Aula MIN Surabaya', ikon: 'fa-ping-pong-paddle' },
             { id: 3, nama: 'Catur', kategori: 'olahraga', peserta: 'Putra & Putri', venue: 'Ruang Kelas MIN', ikon: 'fa-chess' },
             { id: 4, nama: 'Lari Atletik 80m', kategori: 'olahraga', peserta: 'Putra & Putri', venue: 'Lapangan Dupak', ikon: 'fa-person-running' },
@@ -463,7 +426,7 @@
         ];
 
         function downloadTemplateExcel() {
-            const csvContent = "No,Nama Peserta,NISN,Jenis Kelamin (L/P),Tempat Lahir,Tanggal Lahir,Kelas,Alamat\n1,Ahmad Fauzi,0123456789,L,Surabaya,2014-05-12,5 A,Jl. Krembangan No. 10\n2,Siti Aminah,0123456790,P,Surabaya,2015-08-20,4 B,Jl. Dupak Bangunrejo No. 4";
+            const csvContent = "No.,Nama Peserta,NISN,Jenis Kelamin,Kelas,Tempat Lahir,Tanggal Lahir,Nama Orang Tua,Alamat,Cabang Lomba,Putra/Putri\n1,Ahmad Fauzi,0123456789,Laki-laki,5 A,Surabaya,2014-05-12,Budi Santoso,Jl. Krembangan No. 10,Bulu Tangkis,Putra\n2,Siti Aminah,0123456790,Perempuan,4 B,Surabaya,2015-08-20,Ahmad Dahlan,Jl. Dupak Bangunrejo No. 4,MTQ,Putri";
             const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
             const link = document.createElement("a");
             const url = URL.createObjectURL(blob);
@@ -479,68 +442,27 @@
             const display = document.getElementById('file-name-display');
             const text = document.getElementById('file-name-text');
             if (input.files && input.files[0]) {
-                text.innerText = input.files[0].name + " (" + (input.files[0].size / 1024).toFixed(1) + " KB)";
+                const file = input.files[0];
+                if (!/\.(xlsx|xls|csv)$/i.test(file.name) || file.size > 5 * 1024 * 1024) {
+                    input.value = '';
+                    display.classList.add('hidden');
+                    showNotification(!/\.(xlsx|xls|csv)$/i.test(file.name)
+                        ? 'Format berkas harus .xlsx, .xls, atau .csv.'
+                        : 'Ukuran berkas maksimal 5 MB.');
+                    return;
+                }
+                text.innerText = file.name + " (" + (file.size / 1024).toFixed(1) + " KB)";
                 display.classList.remove('hidden');
             } else {
                 display.classList.add('hidden');
             }
         }
 
-        async function handleFormSubmit(e) {
-            e.preventDefault();
-            const btn = document.getElementById('btn-submit-form');
-            btn.disabled = true;
-            btn.innerHTML = `<i class="fa-solid fa-spinner animate-spin"></i> Mengirim Data...`;
+// Form pendaftaran kini berjalan di iframe Google Apps Script.
+// Pengiriman dan konfirmasi penyimpanan ditangani oleh google.script.run di Form.html.
 
-            const fileInput = document.getElementById('field-excel-file');
-            let fileData = { name: '', base64: '' };
-
-            if (fileInput.files && fileInput.files[0]) {
-                const file = fileInput.files[0];
-                fileData.name = file.name;
-                fileData.base64 = await new Promise((resolve) => {
-                    const reader = new FileReader();
-                    reader.onload = (e) => resolve(e.target.result.split(',')[1]);
-                    reader.readAsDataURL(file);
-                });
-            }
-
-            const payload = {
-                madrasah: document.getElementById('field-madrasah').value,
-                official: document.getElementById('field-official').value,
-                whatsapp: document.getElementById('field-whatsapp').value,
-                cabang: document.getElementById('field-cabang').value,
-                fileName: fileData.name,
-                fileBase64: fileData.base64
-            };
-
-            if (gasWebAppUrl && !gasWebAppUrl.includes('AKfycbx...')) {
-                try {
-                    await fetch(gasWebAppUrl, {
-                        method: 'POST',
-                        mode: 'no-cors',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify(payload)
-                    });
-                    showNotification('Pendaftaran & berkas Excel berhasil terkirim!');
-                    document.getElementById('form-pendaftaran').reset();
-                    document.getElementById('file-name-display').classList.add('hidden');
-                    setTimeout(() => fetchAllDataFromGAS(), 1500);
-                } catch (err) {
-                    showNotification('Gagal mengirim pendaftaran ke Google Sheets.');
-                }
-            } else {
-                showNotification('Pendaftaran tersimpan lokal (Harap isi gasWebAppUrl di index.html).');
-                document.getElementById('form-pendaftaran').reset();
-                document.getElementById('file-name-display').classList.add('hidden');
-            }
-
-            btn.disabled = false;
-            btn.innerHTML = `<span>Kirim Pendaftaran</span>`;
-        }
-
-        async function fetchAllDataFromGAS() {
-            if (!gasWebAppUrl || gasWebAppUrl.includes('AKfycbx...')) return;
+async function fetchAllDataFromGAS() {
+            if (!gasWebAppUrl || gasWebAppUrl.includes('GANTI_URL_DEPLOYMENT')) return;
 
             ['refresh-medali-icon', 'refresh-jadwal-icon', 'refresh-pengumuman-icon'].forEach(id => {
                 const el = document.getElementById(id);
@@ -552,22 +474,46 @@
                 const json = await response.json();
 
                 if (json.status === 'success') {
-                    if (json.medali && json.medali.length > 0) medaliData = json.medali;
-                    if (json.jadwal && json.jadwal.length > 0) jadwalData = json.jadwal;
-                    if (json.pengumuman && json.pengumuman.length > 0) pengumumanData = json.pengumuman;
+                    if (Array.isArray(json.medali)) {
+                        medaliData = json.medali.map(item => ({
+                            pos: item.pos ?? '',
+                            mi: item.mi ?? item.kontingen ?? item.madrasah ?? '',
+                            emas: Number(item.emas || 0),
+                            perak: Number(item.perak || 0),
+                            perunggu: Number(item.perunggu || 0)
+                        }));
+                    }
+                    if (Array.isArray(json.jadwal)) {
+                        jadwalData = json.jadwal.map(item => ({
+                            waktu: item.waktu ?? item.tanggal ?? '',
+                            cabang: item.cabang ?? item.lomba ?? item.kategori ?? '',
+                            t1: item.t1 ?? item.kontingen1 ?? item.peserta1 ?? item.lokasi ?? '',
+                            t2: item.t2 ?? item.kontingen2 ?? item.peserta2 ?? '',
+                            skor: item.skor ?? item.hasil ?? '-',
+                            status: item.status ?? 'Akan Datang'
+                        }));
+                    }
+                    if (Array.isArray(json.pengumuman)) {
+                        pengumumanData = json.pengumuman.map(item => ({
+                            tgl: item.tgl ?? item.tanggal ?? '',
+                            judul: item.judul ?? '',
+                            isi: item.isi ?? item.keterangan ?? ''
+                        }));
+                    }
 
                     if (json.stats) {
-                        updateStats(json.stats.totalMadrasah, json.stats.totalPeserta);
+                        updateStats(json.stats.madrasah, json.stats.peserta);
                     }
 
                     renderMedali(medaliData);
                     renderJadwal(jadwalData);
                     renderPengumuman(pengumumanData);
                     showNotification('Data berhasil disinkronkan dari Google Sheets!');
+                } else {
+                    showNotification('Google Sheets: ' + (json.message || 'Gagal membaca data.'));
                 }
             } catch (err) {
                 console.warn('Gagal fetch GAS:', err);
-                showNotification('Gagal sync ke Sheets. Menampilkan data lokal.');
             } finally {
                 ['refresh-medali-icon', 'refresh-jadwal-icon', 'refresh-pengumuman-icon'].forEach(id => {
                     const el = document.getElementById(id);
@@ -667,7 +613,6 @@
         }
 
         function renderMedali(list) {
-            // Sort otomatis standar olimpiade: Emas -> Perak -> Perunggu -> Total
             const sortedList = [...list].sort((a, b) => {
                 const emasA = Number(a.emas || 0), emasB = Number(b.emas || 0);
                 const perakA = Number(a.perak || 0), perakB = Number(b.perak || 0);
