@@ -391,17 +391,26 @@
 
         // Data lokal default (fallback jika belum/tidak terhubung ke Google Sheets)
         let cabangData = [
-            { id: 1, nama: 'Bulu Tangkis', kategori: 'olahraga', peserta: 'Putra & Putri (Tunggal)', venue: 'GOR Krembangan', ikon: 'fa-table-tennis-paddle-ball' },
-            { id: 2, nama: 'Tenis Meja', kategori: 'olahraga', peserta: 'Putra & Putri (Tunggal)', venue: 'Aula MIN Surabaya', ikon: 'fa-ping-pong-paddle' },
-            { id: 3, nama: 'Catur', kategori: 'olahraga', peserta: 'Putra & Putri', venue: 'Ruang Kelas MIN', ikon: 'fa-chess' },
-            { id: 4, nama: 'Lari Atletik 80m', kategori: 'olahraga', peserta: 'Putra & Putri', venue: 'Lapangan Dupak', ikon: 'fa-person-running' },
-            { id: 5, nama: 'Bola Voli Mini', kategori: 'olahraga', peserta: 'Tim Regu Putra/Putri', venue: 'Lapangan MIN Surabaya', ikon: 'fa-volleyball' },
-            { id: 6, nama: 'MTQ (Musabaqah Tilawatil Qur\'an)', kategori: 'seni', peserta: 'Putra & Putri', venue: 'Masjid Al-Ittihad', ikon: 'fa-book-quran' },
-            { id: 7, nama: 'Tahfidz Qur\'an', kategori: 'seni', peserta: 'Putra & Putri', venue: 'Masjid Al-Ittihad', ikon: 'fa-microphone-lines' },
-            { id: 8, nama: 'Kaligrafi Islam', kategori: 'seni', peserta: 'Putra & Putri', venue: 'Aula MI Ta\'miriyah', ikon: 'fa-pen-nib' },
-            { id: 9, nama: 'Pidato Bahasa Indonesia', kategori: 'seni', peserta: 'Putra & Putri', venue: 'Aula MI KH Mas Mansyur', ikon: 'fa-bullhorn' },
-            { id: 10, nama: 'Pidato Bahasa Arab', kategori: 'seni', peserta: 'Putra & Putri', venue: 'Aula MI KH Mas Mansyur', ikon: 'fa-language' },
-            { id: 11, nama: 'Seni Melukis', kategori: 'seni', peserta: 'Putra & Putri', venue: 'Aula MIN Surabaya', ikon: 'fa-palette' }
+            { id: 1, nama: 'Lari Atletik 80/60m', kategori: 'olahraga', peserta: 'Putra & Putri', venue: 'Lapangan Bangunsari', ikon: 'fa-person-running' },
+            { id: 2, nama: 'Tolak Peluru', kategori: 'olahraga', peserta: 'Putra & Putri (Tunggal)', venue: 'Lapangan Bangunsari', ikon: 'fas fa-circle' },
+            { id: 3, nama: 'Lompat Jauh', kategori: 'olahraga', peserta: 'Putra & Putri', venue: 'Lapangan Bangunsari', ikon: 'fa-child-reaching' },
+            { id: 4, nama: 'Bulu Tangkis', kategori: 'olahraga', peserta: 'Putra & Putri (Tunggal)', venue: 'Lapangan Bangunsari', ikon: 'fas fa-table-tennis' },
+            { id: 5, nama: 'Tenis Meja', kategori: 'olahraga', peserta: 'Putra/Putri', venue: 'MI Sabilal Salamah', ikon: 'fas fa-table-tennis' },
+            { id: 6, nama: 'Catur', kategori: 'seni', peserta: 'Putra & Putri', venue: 'MI Sabilal Muttaqin', ikon: 'fa-chess' },
+            { id: 7, nama: 'Bola Voli Mini', kategori: 'olahraga', peserta: 'Beregu Putra & Beregu Putri', venue: 'Lapangan Bangunsari', ikon: 'fa-volleyball' },
+            { id: 8, nama: 'Seni Pencak Silat', kategori: 'olahraga', peserta: 'Putra & Putri', venue: 'Lapangan Bangunsari', ikon: 'fas fa-user-ninja' },
+            { id: 9, nama: 'Fulsal', kategori: 'olahraga', peserta: 'Beregu Putra', venue: 'Lapangan Bangunsari', ikon: 'fas fa-futbol' },
+            { id: 10, nama: 'Renang', kategori: 'olahraga', peserta: 'Putra & Putri', venue: 'Menyusul', ikon: 'fas fa-swimming-pool' },
+            { id: 1, nama: 'Musabaqah Tilawatil Qur\'an', kategori: 'olahraga', peserta: 'Putra & Putri', venue: 'MI Sabilal Muttaqin', ikon: 'fa-person-running' },
+            { id: 2, nama: 'Tahfidz', kategori: 'olahraga', peserta: 'Putra & Putri (Tunggal)', venue: 'MI Sabilal Muttaqin', ikon: 'fa-microphone-lines' },
+            { id: 3, nama: 'Pildacil Bahasa Indonesia', kategori: 'olahraga', peserta: 'Putra & Putri', venue: 'MI Sabilal Muttaqin', ikon: 'fa-bullhorn' },
+            { id: 4, nama: 'Pildacil Bahasa Arab', kategori: 'olahraga', peserta: 'Putra & Putri (Tunggal)', venue: 'MI Sabilal Muttaqin', ikon: 'fa-bullhorn' },
+            { id: 5, nama: 'Pildacil Bahasa Inggris', kategori: 'olahraga', peserta: 'Tim Regu Putra/Putri', venue: 'MI Sabilal Muttaqin', ikon: 'fa-bullhorn' },
+            { id: 6, nama: 'Kaligrafi Arab', kategori: 'seni', peserta: 'Putra & Putri', venue: 'MI Sabilas Salamah', ikon: 'fa-book-quran' },
+            { id: 7, nama: 'Melukis', kategori: 'seni', peserta: 'Putra & Putri', venue: 'MI Sabilas Salamah', ikon: 'fa-palette' },
+            { id: 8, nama: 'Menyanyi Lagu Islami', kategori: 'seni', peserta: 'Putra & Putri', venue: 'MI Sabilas Salamah', ikon: 'fa-pen-nib' },
+            { id: 9, nama: 'Puisi', kategori: 'seni', peserta: 'Putra & Putri', venue: 'MI Sabilas Salamah', ikon: 'fa-solid fa-book-open' },
+            { id: 9, nama: 'TEMPAT DAN WAKTU BISA FIX & BISA BERUBAH', kategori: 'Venue', peserta: 'Peserta', venue: 'Tempat', ikon: 'fa fa-map-marker' },
         ];
 
         let medaliData = [
