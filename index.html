@@ -244,9 +244,16 @@
                     <h2 class="text-3xl font-extrabold text-slate-900">Klasemen Perolehan Medali</h2>
                     <p class="text-slate-600 mt-1">Diurutkan otomatis berdasarkan kriteria: Emas > Perak > Perunggu.</p>
                 </div>
-                <button onclick="fetchAllDataFromGAS()" class="px-4 py-2 bg-brand-700 hover:bg-brand-800 text-white text-xs font-bold rounded-xl shadow-sm transition flex items-center gap-2">
-                    <i class="fa-solid fa-rotate-right" id="refresh-medali-icon"></i> Refresh Data
-                </button>
+                <div class="flex flex-wrap items-center gap-2">
+                    <a href="https://script.google.com/macros/s/AKfycbz80YNMoyz5OzB0HA1r_f_UMAhFymxSm4wDX1cLiEjnKIoSVTbWPgJNts_iJBhxj1YY/exec"
+                       target="_blank" rel="noopener noreferrer"
+                       class="px-4 py-2 bg-brand-700 hover:bg-brand-800 text-white text-xs font-bold rounded-xl shadow-sm transition flex items-center gap-2">
+                        <i class="fa-solid fa-plus"></i> Tambah Medali
+                    </a>
+                    <button onclick="fetchAllDataFromGAS()" class="px-4 py-2 bg-brand-700 hover:bg-brand-800 text-white text-xs font-bold rounded-xl shadow-sm transition flex items-center gap-2">
+                        <i class="fa-solid fa-rotate-right" id="refresh-medali-icon"></i> Refresh Data
+                    </button>
+                </div>
             </div>
 
             <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
@@ -267,7 +274,7 @@
                 </div>
             </div>
         </div>
-
+		
         <!-- SECTION 5: PENGUMUMAN -->
         <div id="tab-pengumuman" class="tab-content hidden py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="mb-8 flex flex-col md:flex-row md:items-center justify-between gap-4">
