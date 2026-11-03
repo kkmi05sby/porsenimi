@@ -226,7 +226,7 @@
                             <tr>
                                 <th class="p-4 border-b">Waktu & Lokasi</th>
                                 <th class="p-4 border-b">Cabang Lomba</th>
-                                <th class="p-4 border-b text-center">Pertandingan / Peserta</th>
+                                <th class="p-4 border-b text-center">Tempat</th>
                                 <th class="p-4 border-b text-center">Skor / Hasil</th>
                                 <th class="p-4 border-b text-center">Status</th>
                             </tr>
@@ -613,7 +613,7 @@ async function fetchAllDataFromGAS() {
                     <tr class="hover:bg-slate-50 transition">
                         <td class="p-4 text-xs font-medium text-slate-600">${item.waktu}</td>
                         <td class="p-4 font-bold text-slate-900">${item.cabang}</td>
-                        <td class="p-4 text-center font-medium">${item.t1} <span class="text-xs text-slate-400 mx-1">VS</span> ${item.t2}</td>
+                        <td class="p-4 text-center font-medium">${item.t1} <span class="text-xs text-slate-400 mx-1"></span> ${item.t2}</td>
                         <td class="p-4 text-center font-black text-brand-700">${item.skor}</td>
                         <td class="p-4 text-center"><span class="px-2.5 py-1 rounded-full text-xs font-bold ${badgeClass}">${item.status}</span></td>
                     </tr>
